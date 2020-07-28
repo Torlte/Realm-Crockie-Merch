@@ -1,0 +1,41 @@
+h1 {
+  color: #24ff00;
+  text-shadow: 20px 15px 2px black
+}
+
+img {
+  border: 2px solid black;
+  padding: 10px 50px;
+  background: linear-gradient(to right,#f6e709, #24ff00);
+  margin: 100px;
+}
+
+p{
+  font-size: 20px;
+  color: #24ff00;
+}
+
+body{
+  background-color: #ff6600;
+}
+
+.button {
+	background-color:#ff0000;
+	border-radius:42px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#00ff26;
+	font-family:Times New Roman;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#ffffff;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
