@@ -1,6 +1,9 @@
 h1 {
-  color: #24ff00;
-  text-shadow: 20px 15px 2px black
+  font-family: sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(90deg, red , purple , hotpink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
 }
 
 img {
@@ -40,14 +43,6 @@ body{
     100
 }
 }
-h1 {
-  font-family: sans-serif;
-  display: inline-block;
-  background-image: linear-gradient(90deg, red , purple , hotpink);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent
-}
-
 }
 
 .button {
